@@ -1,1 +1,2 @@
 # success-with-systems
+The code loads a CSV file into a pandas DataFrame and defines a function to clean and standardize job titles in the 'Title' column. It uses regular expressions to identify key executive titles, including variations of 'Co-Founder', and maps them to a consistent format. The function deduplicates titles, retains only the first two if there are multiple titles, and maps 'Financial Director' to 'CFU'. The cleaned titles are then stored in a new column 'Cleaned_Titles'.
